@@ -24,6 +24,7 @@ RSpec.configure do |config|
 
   config.before(:each, type: :controller) do
     include_default_accept_headers
+    # api_authorization_header
   end
 
   # ## Mock Framework
